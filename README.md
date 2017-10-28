@@ -1,3 +1,5 @@
 # pomodoro-timer
 
-This is a pomodoro-strategy based timer. This means that it allows a small break every defined interval to maximize concentration. Also, it will soon include a task scheduler that sorts tasks based on deadline. It should, when complete maximize effeciency.
+This is a pomodoro-strategy based timer. This means that it allows a small break every defined interval to maximize concentration. Also, it includes a task scheduler that sorts tasks based on deadline. It should, when complete maximize effeciency when working.
+
+Any feedback is appreciated, don't worry about being impolite.
