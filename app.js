@@ -2,9 +2,12 @@
 express = require("express")
 var app = express()
 
+app.use(express.static("js"))
+
 //defining the index site function
 app.get("/", function (req, res) {
-  res.sendFile(__dirname + "/views/index.html")
+  console.log("serving up the index")
+  res.sendFile(__dirname + "/html/index.html")
 })
 
 //starting the server
