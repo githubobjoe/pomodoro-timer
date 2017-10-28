@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body><center><h1>
+<form action="/action_page.php">
+Type of project:<br>
+<input type="text" name="firstname">
+<br>
+Time:<br>
+<select>
+<option value="volvo">1 minutes</option>
+<option value="volvo">2 minutes</option>
+<option value="volvo">3 minutes</option>
+<option value="volvo">4 minutes</option>
+  <option value="volvo">5 minutes</option>
+  <option value="saab">10 minutes</option>
+  <option value="opel">15 minutes</option>
+  <option value="audi">20 minutes</option>
+  <option value="audi">25 minutes</option>
+  <option value="audi">30 minutes</option>
+  <option value="audi">35 minutes</option>
+  <option value="audi">40 minutes</option>
+  <option value="audi">45 minutes</option>
+  <option value="audi">50 minutes</option>
+  <option value="audi">55 minutes</option>
+  <option value="audi">1 hour</option>
+  </select>
+  <br>
+  <br>
+  
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Start working!</a>
+
+  </body>
+</html>
