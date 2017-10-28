@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+	<body>
+		<form method="post">
+			Any Feedback: <input type="text" name="feed"><br>
+			<input type="submit" value="Submit">
+		</form>
+
+		<?php
+		$myfile = fopen("response.txt", "a");
+		file_put_contents("response.txt", $_POST["feed"]);
+		file_put_contents("response.txt", "/n");
+		fclose("response.txt");
+		?>
+	</body>
+</html>
