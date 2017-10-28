@@ -8,10 +8,11 @@ function newa(due,name,subj){
 		name:name,
 		d:assigments.length,
 		subj:subj,
-		del:true
+		del:true,
+		completed: false
 	})
 }
-function bubble(a){
+function bubble(a = assigments){
 	var ar = [];
 	for(var i = 0; i<a.length; i++){
 		ar.push(a[i].due);
@@ -34,6 +35,8 @@ function complete(id){
 			//delete or complete code
 			if(assigments[i].del){
 				assigments.splice(i,1);
+			}else{
+				assigments[i].completed = true;
 			}
 		}
 	}
