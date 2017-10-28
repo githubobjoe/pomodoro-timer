@@ -3,6 +3,7 @@ express = require("express")
 var app = express()
 
 app.use(express.static("js"))
+app.use(express.static("public"))
 
 //defining the index site function
 app.get("/", function (req, res) {
