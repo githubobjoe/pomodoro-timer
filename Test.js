@@ -32,7 +32,7 @@ function bubble(a = assigments){
 function complete(id){
 	for(i=0;i<assigments.length;i++){ 
 		if(assigments[i].d = id){
-			//delete or complete code
+			//delete or complete
 			if(assigments[i].del){
 				assigments.splice(i,1);
 			}else{
